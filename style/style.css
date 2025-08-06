@@ -176,4 +176,127 @@ main > section{
 .part{
   max-width: 540px;
 }
+/* responsive some facts for mobole device */
+@media screen and (max-width:576px) {
+  .fact-container{
+    grid-template-columns: 1fr;
+    max-width: none;
+    width: 100%;
 
+  }
+  .part{
+    max-width: none;
+    width: 100%;
+  }
+  .fact{
+    max-width: none;
+    width: 100%;
+  }
+
+}
+/* rersponsive for medium device */
+@media screen  and (min-width:576px) and (max-width:992px) {
+  .fact-container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-width: none;
+    gap: 20px;
+  }
+  .fact{
+    max-width: none;
+    width: 100%;
+    
+  }
+}
+/* sponsors */
+.okay{
+  margin: 0;
+}
+.sponsors{
+  margin: 0 auto;
+  max-width: 542px;
+  text-align: center;
+  
+}
+.feat{
+  margin-bottom: 50px;
+}
+.icon{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.icon img{
+  filter: grayscale(100%);
+}
+/* sponsors responsive for small device */
+@media screen and (max-width:576px) {
+  .sponsors{
+    max-width: none;
+    width: 100%;
+  }
+  .icon{
+    grid-template-columns: 1fr;
+    gap: 50px;
+    justify-items: center;
+     
+  }
+}
+/* responsive for medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .icon{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+footer{
+  background-color: #FFF4E7;
+  height: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.foot{
+  text-align: center;
+  padding-top: 50px;
+  
+}
+/* reponsive footer */
+@media screen and (max-width:576px)  {
+footer{
+max-width: none;
+width: 100%;
+}
+}
+
+
+
+
+.sister-title{
+ font-size: 45px;
+ margin: 0; 
+ max-width: 468px;
+}
+.div{
+  max-width: 586px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+}
+.love img{
+
+}
+.feature-details{
+  display: flex;
+  gap: 140px;
+}
+#haha{
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#hehe{
+  font-size: 4rem;
+}
